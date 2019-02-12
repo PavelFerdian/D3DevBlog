@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="D3DevBlog.WPF.AttachedProperties.App.View.ItemsControlHelperView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:D3DevBlog.WPF.AttachedProperties.App.View"
+             xmlns:sh="clr-namespace:D3DevBlog.WPF.Shared.Model;assembly=D3DevBlog.WPF.Shared"
+             xmlns:at="clr-namespace:D3DevBlog.WPF.AttachedProperties;assembly=D3DevBlog.WPF.AttachedProperties"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="auto" />
+      <RowDefinition />
+    </Grid.RowDefinitions>
+    <StackPanel Orientation="Horizontal" Margin="5 5 5 0">
+      <Button Content="Add new" Command="{Binding AddCommand}" Padding="5 2 5 2" />
+    </StackPanel>
+    <ListBox Grid.Row="1" 
+             Margin="5"
+             ItemsSource="{Binding Items}"
+             at:ItemsControlHelper.ScrollToLastItem="True"
+             VirtualizingPanel.VirtualizationMode="Recycling"
+             VirtualizingPanel.IsVirtualizing="True"
+             DisplayMemberPath="City"/>
+  </Grid>
+</UserControl>

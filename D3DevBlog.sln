@@ -1,0 +1,129 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.Shared", "D3DevBlog.WPF.Shared\D3DevBlog.WPF.Shared.csproj", "{ADE7D5DA-1135-4719-98B6-3A20C1C39548}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D3DevBlog.WPF.Interactivity.CollectionViewSource", "D3DevBlog.WPF.Interactivity.CollectionViewSource", "{D5D2536A-37FE-4273-B9B8-A37A5E38EB02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.Interactivity.CollectionViewSource", "D3DevBlog.WPF.Interactivity.CollectionViewSource\D3DevBlog.WPF.Interactivity.CollectionViewSource\D3DevBlog.WPF.Interactivity.CollectionViewSource.csproj", "{B3F46A21-69AE-4009-A601-D6D399FD06E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.Interactivity.CollectionViewSource.App", "D3DevBlog.WPF.Interactivity.CollectionViewSource\D3DevBlog.WPF.Interactivity.CollectionViewSource.App\D3DevBlog.WPF.Interactivity.CollectionViewSource.App.csproj", "{8B76803C-F972-4F78-B282-58388BE20D4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D3DevBlog.WPF.MarkupExtension", "D3DevBlog.WPF.MarkupExtension", "{351080E9-C817-47B7-BC61-715ED89A15D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.MarkupExtension", "D3DevBlog.WPF.MarkupExtension\D3DevBlog.WPF.MarkupExtension\D3DevBlog.WPF.MarkupExtension.csproj", "{F54420E5-4244-4125-86DC-716658CB8E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.MarkupExtension.App", "D3DevBlog.WPF.MarkupExtension\D3DevBlog.WPF.MarkupExtension.App\D3DevBlog.WPF.MarkupExtension.App.csproj", "{9A25AA3F-7264-4916-B8EF-DAB22FE05DF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D3DevBlog.WPF.MarkupExtension.Localization", "D3DevBlog.WPF.MarkupExtension.Localization", "{B52CCCDF-2AE2-43ED-B22E-7F290F8CB7D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.MarkupExtension.Localization", "D3DevBlog.WPF.MarkupExtension.Localization\D3DevBlog.WPF.MarkupExtension.Localization\D3DevBlog.WPF.MarkupExtension.Localization.csproj", "{2F7D7349-A468-494B-A21B-E609FA10EAEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.MarkupExtension.Localization.App", "D3DevBlog.WPF.MarkupExtension.Localization\D3DevBlog.WPF.MarkupExtension.Localization.App\D3DevBlog.WPF.MarkupExtension.Localization.App.csproj", "{AC8DCBFA-73E8-4D77-8D11-D8C4E1AD02DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.MarkupExtension.Localization.App.Controls", "D3DevBlog.WPF.MarkupExtension.Localization\D3DevBlog.WPF.MarkupExtension.Localization.App.Controls\D3DevBlog.WPF.MarkupExtension.Localization.App.Controls.csproj", "{290F413F-6034-442F-928A-98CA19B1421C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D3DevBlog.WPF.MarkupExtension.Others", "D3DevBlog.WPF.MarkupExtension.Others", "{0C534BD8-7C0C-4566-A554-01CAE6557D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.MarkupExtension.Others", "D3DevBlog.WPF.MarkupExtension.Others\D3DevBlog.WPF.MarkupExtension.Others\D3DevBlog.WPF.MarkupExtension.Others.csproj", "{05A26CD1-4871-4606-9146-66DAC687D328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.MarkupExtension.Others.App", "D3DevBlog.WPF.MarkupExtension.Others\D3DevBlog.WPF.MarkupExtension.Others.App\D3DevBlog.WPF.MarkupExtension.Others.App.csproj", "{FCEA5294-EC84-45C6-810D-BCDFF4C651C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D3DevBlog.WPF.AttachedProperties", "D3DevBlog.WPF.AttachedProperties", "{B6A10273-1C01-46BB-8F46-F07FC657A0D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.AttachedProperties", "D3DevBlog.WPF.AttachedProperties\D3DevBlog.WPF.AttachedProperties\D3DevBlog.WPF.AttachedProperties.csproj", "{105D6112-5F3A-4DE2-9B48-79E898A5EE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.AttachedProperties.App", "D3DevBlog.WPF.AttachedProperties\D3DevBlog.WPF.AttachedProperties.App\D3DevBlog.WPF.AttachedProperties.App.csproj", "{EC6C6AF6-BD7C-4D91-92E1-67BBF26627FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D3DevBlog.WPF.Others", "D3DevBlog.WPF.Others", "{DF6148D6-9FF3-4883-928C-F807DBF298F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.Others.RemoveWindowIcon", "D3DevBlog.WPF.Others\D3DevBlog.WPF.Others.RemoveWindowIcon\D3DevBlog.WPF.Others.RemoveWindowIcon.csproj", "{6E62DADA-A0EA-47FE-8FDF-533B39DC9C18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D3DevBlog.WPF.Controls", "D3DevBlog.WPF.Controls", "{E2C4ACCF-0AAC-4C44-954F-853F5F8E6712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.Controls.TilePanel", "D3DevBlog.WPF.Controls\D3DevBlog.WPF.Controls.TilePanel\D3DevBlog.WPF.Controls.TilePanel.csproj", "{4C51395E-26D5-44AC-AF78-2844B493A310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADE7D5DA-1135-4719-98B6-3A20C1C39548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE7D5DA-1135-4719-98B6-3A20C1C39548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE7D5DA-1135-4719-98B6-3A20C1C39548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE7D5DA-1135-4719-98B6-3A20C1C39548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F46A21-69AE-4009-A601-D6D399FD06E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F46A21-69AE-4009-A601-D6D399FD06E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F46A21-69AE-4009-A601-D6D399FD06E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F46A21-69AE-4009-A601-D6D399FD06E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B76803C-F972-4F78-B282-58388BE20D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B76803C-F972-4F78-B282-58388BE20D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B76803C-F972-4F78-B282-58388BE20D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B76803C-F972-4F78-B282-58388BE20D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54420E5-4244-4125-86DC-716658CB8E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54420E5-4244-4125-86DC-716658CB8E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54420E5-4244-4125-86DC-716658CB8E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54420E5-4244-4125-86DC-716658CB8E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A25AA3F-7264-4916-B8EF-DAB22FE05DF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A25AA3F-7264-4916-B8EF-DAB22FE05DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A25AA3F-7264-4916-B8EF-DAB22FE05DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A25AA3F-7264-4916-B8EF-DAB22FE05DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7D7349-A468-494B-A21B-E609FA10EAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7D7349-A468-494B-A21B-E609FA10EAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7D7349-A468-494B-A21B-E609FA10EAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7D7349-A468-494B-A21B-E609FA10EAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8DCBFA-73E8-4D77-8D11-D8C4E1AD02DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8DCBFA-73E8-4D77-8D11-D8C4E1AD02DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8DCBFA-73E8-4D77-8D11-D8C4E1AD02DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8DCBFA-73E8-4D77-8D11-D8C4E1AD02DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290F413F-6034-442F-928A-98CA19B1421C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290F413F-6034-442F-928A-98CA19B1421C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290F413F-6034-442F-928A-98CA19B1421C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290F413F-6034-442F-928A-98CA19B1421C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A26CD1-4871-4606-9146-66DAC687D328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A26CD1-4871-4606-9146-66DAC687D328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A26CD1-4871-4606-9146-66DAC687D328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A26CD1-4871-4606-9146-66DAC687D328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEA5294-EC84-45C6-810D-BCDFF4C651C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEA5294-EC84-45C6-810D-BCDFF4C651C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEA5294-EC84-45C6-810D-BCDFF4C651C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEA5294-EC84-45C6-810D-BCDFF4C651C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105D6112-5F3A-4DE2-9B48-79E898A5EE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105D6112-5F3A-4DE2-9B48-79E898A5EE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105D6112-5F3A-4DE2-9B48-79E898A5EE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105D6112-5F3A-4DE2-9B48-79E898A5EE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6C6AF6-BD7C-4D91-92E1-67BBF26627FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6C6AF6-BD7C-4D91-92E1-67BBF26627FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6C6AF6-BD7C-4D91-92E1-67BBF26627FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6C6AF6-BD7C-4D91-92E1-67BBF26627FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E62DADA-A0EA-47FE-8FDF-533B39DC9C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E62DADA-A0EA-47FE-8FDF-533B39DC9C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E62DADA-A0EA-47FE-8FDF-533B39DC9C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E62DADA-A0EA-47FE-8FDF-533B39DC9C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C51395E-26D5-44AC-AF78-2844B493A310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C51395E-26D5-44AC-AF78-2844B493A310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C51395E-26D5-44AC-AF78-2844B493A310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C51395E-26D5-44AC-AF78-2844B493A310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3F46A21-69AE-4009-A601-D6D399FD06E8} = {D5D2536A-37FE-4273-B9B8-A37A5E38EB02}
+		{8B76803C-F972-4F78-B282-58388BE20D4D} = {D5D2536A-37FE-4273-B9B8-A37A5E38EB02}
+		{F54420E5-4244-4125-86DC-716658CB8E4D} = {351080E9-C817-47B7-BC61-715ED89A15D3}
+		{9A25AA3F-7264-4916-B8EF-DAB22FE05DF8} = {351080E9-C817-47B7-BC61-715ED89A15D3}
+		{2F7D7349-A468-494B-A21B-E609FA10EAEA} = {B52CCCDF-2AE2-43ED-B22E-7F290F8CB7D0}
+		{AC8DCBFA-73E8-4D77-8D11-D8C4E1AD02DB} = {B52CCCDF-2AE2-43ED-B22E-7F290F8CB7D0}
+		{290F413F-6034-442F-928A-98CA19B1421C} = {B52CCCDF-2AE2-43ED-B22E-7F290F8CB7D0}
+		{05A26CD1-4871-4606-9146-66DAC687D328} = {0C534BD8-7C0C-4566-A554-01CAE6557D9B}
+		{FCEA5294-EC84-45C6-810D-BCDFF4C651C3} = {0C534BD8-7C0C-4566-A554-01CAE6557D9B}
+		{105D6112-5F3A-4DE2-9B48-79E898A5EE8F} = {B6A10273-1C01-46BB-8F46-F07FC657A0D2}
+		{EC6C6AF6-BD7C-4D91-92E1-67BBF26627FC} = {B6A10273-1C01-46BB-8F46-F07FC657A0D2}
+		{6E62DADA-A0EA-47FE-8FDF-533B39DC9C18} = {DF6148D6-9FF3-4883-928C-F807DBF298F3}
+		{4C51395E-26D5-44AC-AF78-2844B493A310} = {E2C4ACCF-0AAC-4C44-954F-853F5F8E6712}
+	EndGlobalSection
+EndGlobal
