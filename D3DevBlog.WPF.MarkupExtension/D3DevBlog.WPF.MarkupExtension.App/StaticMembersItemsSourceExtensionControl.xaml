@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="D3DevBlog.WPF.MarkupExtension.App.StaticMembersItemsSourceExtensionControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:D3DevBlog.WPF.MarkupExtension.App"
+             xmlns:me="clr-namespace:D3DevBlog.WPF.MarkupExtension;assembly=D3DevBlog.WPF.MarkupExtension"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+  <Grid>
+    <StackPanel>
+      <Border x:Name="CONTROL_Border" 
+              Background="{Binding ElementName=CONTROL_BrushesComboBox, Path=SelectedValue, TargetNullValue=#3399FF, FallbackValue=#3399FF}" 
+              Width="50" 
+              Height="50" />
+
+      <StackPanel Margin="10">
+        <TextBlock Text="Brush:" FontSize="10" />
+        <ComboBox x:Name="CONTROL_BrushesComboBox" 
+                  Margin="0 0 0 3"
+                  ItemsSource="{me:StaticMembersItemsSource Type={x:Type Brushes}, AddEmptyValue=True}">
+          <ComboBox.ItemTemplate>
+            <DataTemplate>
+              <StackPanel Orientation="Horizontal">
+                <Border x:Name="Border" 
+                        Width="15" 
+                        Height="15" 
+                        BorderBrush="#000000"
+                        BorderThickness="1"
+                        Background="{Binding Value}" 
+                        VerticalAlignment="Center" 
+                        Margin="0 0 5 0" />
+                <TextBlock Text="{Binding Text}"
+                           VerticalAlignment="Center" />
+              </StackPanel>
+              <DataTemplate.Triggers>
+                <DataTrigger Binding="{Binding Value}" Value="{x:Null}">
+                  <Setter TargetName="Border" Property="Visibility" Value="Hidden" />
+                </DataTrigger>
+              </DataTemplate.Triggers>
+            </DataTemplate>
+          </ComboBox.ItemTemplate>
+        </ComboBox>
+      </StackPanel>
+    </StackPanel>
+  </Grid>
+</UserControl>
