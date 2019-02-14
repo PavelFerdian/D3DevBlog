@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.Shared", "D3DevBlog.WPF.Shared\D3DevBlog.WPF.Shared.csproj", "{ADE7D5DA-1135-4719-98B6-3A20C1C39548}"
 EndProject
@@ -44,6 +44,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D3DevBlog.WPF.Controls", "D3DevBlog.WPF.Controls", "{E2C4ACCF-0AAC-4C44-954F-853F5F8E6712}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.WPF.Controls.TilePanel", "D3DevBlog.WPF.Controls\D3DevBlog.WPF.Controls.TilePanel\D3DevBlog.WPF.Controls.TilePanel.csproj", "{4C51395E-26D5-44AC-AF78-2844B493A310}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "D3DevBlog.Others", "D3DevBlog.Others", "{48FA713F-3F84-4804-BDB9-AE0FBF1A57CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "D3DevBlog.Others.WindowsImpersonationContext", "D3DevBlog.Others\D3DevBlog.Others.WindowsImpersonationContext\D3DevBlog.Others.WindowsImpersonationContext.csproj", "{3FB6A5E6-201A-4CC5-9549-6FAC6A5E8D30}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -107,6 +111,10 @@ Global
 		{4C51395E-26D5-44AC-AF78-2844B493A310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C51395E-26D5-44AC-AF78-2844B493A310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C51395E-26D5-44AC-AF78-2844B493A310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB6A5E6-201A-4CC5-9549-6FAC6A5E8D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB6A5E6-201A-4CC5-9549-6FAC6A5E8D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB6A5E6-201A-4CC5-9549-6FAC6A5E8D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB6A5E6-201A-4CC5-9549-6FAC6A5E8D30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -125,5 +133,9 @@ Global
 		{EC6C6AF6-BD7C-4D91-92E1-67BBF26627FC} = {B6A10273-1C01-46BB-8F46-F07FC657A0D2}
 		{6E62DADA-A0EA-47FE-8FDF-533B39DC9C18} = {DF6148D6-9FF3-4883-928C-F807DBF298F3}
 		{4C51395E-26D5-44AC-AF78-2844B493A310} = {E2C4ACCF-0AAC-4C44-954F-853F5F8E6712}
+		{3FB6A5E6-201A-4CC5-9549-6FAC6A5E8D30} = {48FA713F-3F84-4804-BDB9-AE0FBF1A57CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5CF2259-AFEF-4056-8494-C1E9633B42E8}
 	EndGlobalSection
 EndGlobal
